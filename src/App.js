@@ -28,7 +28,7 @@ function App() {
         <h1>Mon application de test</h1>
         <hr />
 
-        <button onClick={getUsers2}>Cliquez moi</button>
+        <button data-testid="btn-1" onClick={getUsers2}>Cliquez moi</button>
       </header>
       <main>
         <table>
